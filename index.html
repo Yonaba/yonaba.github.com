@@ -1,0 +1,20 @@
+---
+layout: default
+description: Roland Yonaba's Personal Website And Development Blog.
+---
+
+<div id="home">
+<h1>Welcome</h1>
+
+<p>This is my personal development blog, hosted at <a href="http://github.com">Github</a> and powered by <a href="http://jekyllrb.com/">Jekyll</a>.</p>
+<p>You will find here my on-going projects, latest blog posts and random thoughts.<br/>Thanks for visiting and hope you have fun!</p>
+
+
+  <h1>My Latest Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts limit:3 %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  
+</div>

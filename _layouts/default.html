@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   
+   {% if page.title %}
+   <title>{{ page.title }} - {{ site.title }}</title>
+   {% else %}
+   <title>{{ site.title }}</title>
+   {% endif %}
+
+   <meta name="author" content="Roland Yonaba" />
+   {% if page.description %}
+   <meta name="description" content="{{ page.description }}" />
+   {% else %}
+   <meta name="description" content="{{site.title }} {{ page.title }}" />
+   {% endif %}
+
+   {% if page.keywords %}
+   <meta name="keywords" content="{{ page.keywords }}" />
+   {% endif %}
+
+   <!-- syntax highlighting CSS -->
+   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+
+   <!-- Homepage CSS -->
+   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+
+   <!-- Google Analytics Code -->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-33850683-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+   <!-- End Google Analytics Code -->
+
+   <!-- Javascript needed by projects.html -->
+   <script src="/javascripts/jquery.js" type="text/javascript" charset="utf-8"></script>
+   <script type="text/javascript" src="/javascripts/jquery.github.js"></script>
+
+   <!-- Javascript needed by keyshanc.js -->
+   <script type="text/javascript" src="/javascripts/sha256-min.js"></script>
+   <script type="text/javascript" src="/javascripts/sha512-min.js"></script>
+   <script type="text/javascript" src="/javascripts/sha1-min.js"></script>
+   <script type="text/javascript" src="/javascripts/hotp.js"></script>
+
+   <!-- Javascript needed by hotp.js -->
+   <script type="text/javascript" src="/javascripts/2.0.0-crypto-sha1.js"></script>
+   <script type="text/javascript" src="/javascripts/2.0.0-hmac-min.js"></script>
+
+   <!-- Javascript implementation of keyshanc -->
+   <script type="text/javascript" src="/javascripts/keyshanc.js"></script>
+
+</head>
+<body>
+<div class="site">
+  <div class="title">
+    <a href="/">Roland Yonaba</a>
+    <a class="extra" href="/">Home</a>
+    <a class="extra" href="/about.html">About</a>
+    <a class="extra" href="/blog.html">Blog</a>
+    <a class="extra" href="/projects.html">Projects</a>
+    <a class="extra" href="/contact.html">Contact</a>
+  </div>
+
+  {{ content }}
+
+  <div class="footer">
+    <div class="contact">
+      <p>
+      © 2012 Theme by Andrew C. Reed. Theme and code from <a href="https://github.com/mojombo">Tom Preston-Werner</a>.<br />
+      Hosted by <a href="http://github.com/Yonaba/yonaba.github.com/">Github</a> and powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a>.
+      </p>
+    </div>
+    <div class="rss">
+      <p>
+        <div class="social">
+          <div class="g-plusone" data-size="medium" data-annotation="none" data-href="http://yonaba.github.com"></div>
+        </div>
+        <div class="social">
+          <a href="https://twitter.com/RYonaba" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
+        <a href="http://feeds.feedburner.com/ryonaba">
+           <img src="/images/feed.png" width ="21" height="21" alt="Subscribe to RSS Feed" />
+        </a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- GitHub Fork Me Ribbon -->
+<a href="http://github.com/Yonaba/"><img style="position: absolute; top: 0; right: 0; border: 0;" src="/images/rightBlack.png" alt="Fork me on GitHub"></a>
+
+<!-- Google+ Plus One Button, asynchronous code -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<!-- End Google+ Plus One Button code -->
+
+</body>
+</html>
