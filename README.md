@@ -10,7 +10,7 @@ All other directories and files, blogs posts and contents excluded, are [MIT](ht
 ###Credits and Thanks
 
 * Theme and code from [Tom Preston-Werner](https://github.com/mojombo/mojombo.github.com) and [Andrew C. Reed](http://andrewcreed.com)
-* Meta data generation code from [Bilal Hussain](https://github.com/Bilalh/bilalh.github.com/tree/source)
-* GitHub repo listing code from [Matthew Deiters](https://github.com/mdeiters/mdeiters.github.com)
+* Metadata generation code from [Bilal Hussain](https://github.com/Bilalh/bilalh.github.com/tree/source)
+* GitHub repo listing basecode from [Andrew Dawey](http://aboutcode.net/2010/11/11/list-github-projects-using-javascript.html)
 * Sitemap generation code from [Jade](https://github.com/plusjade/jekyll-bootstrap)
-* Syntax Highlighting code from [Alex Gorbatchev](http://alexgorbatchev.com/SyntaxHighlighter/)
+* Syntax Highlighting code from [Benjamin Arthur Lupton](https://github.com/balupton/jquery-syntaxhighlighter)
