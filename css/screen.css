@@ -168,7 +168,7 @@ ul.posts {
 
   #post pre {
     border: 1px solid #ddd;
-    background-color: #eef;
+    background-color: #000;
     padding: 0 .4em;
   }
 
@@ -179,14 +179,25 @@ ul.posts {
 
   #post code {
     border: 1px solid #ddd;
-    background-color: #eef;
+    background-color: #000;
     font-size: 85%;
     padding: 0 .2em;
+
   }
 
     #post pre code {
-      border: none;
+	  width: 100%;
+      border: none;	  
+      font-size: 85%;  
     }
+
+	pre { 
+		white-space: pre; 
+		overflow: auto;	
+		font-family: Bitstream Vera Sans Mono,monospace;
+		font-size: 15px;
+		color: #fff;
+	}
 
   /* terminal */
 

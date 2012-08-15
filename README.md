@@ -13,4 +13,4 @@ All other directories and files, blogs posts and contents excluded, are [MIT](ht
 * Metadata generation code from [Bilal Hussain](https://github.com/Bilalh/bilalh.github.com/tree/source)
 * GitHub repo listing basecode from [Andrew Dawey](http://aboutcode.net/2010/11/11/list-github-projects-using-javascript.html)
 * Sitemap generation code from [Jade](https://github.com/plusjade/jekyll-bootstrap)
-* Syntax Highlighting code from [Benjamin Arthur Lupton](https://github.com/balupton/jquery-syntaxhighlighter)
+* Syntax Highlighting code by [Pygments.org](http://pygments.org)
