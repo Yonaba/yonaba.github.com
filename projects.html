@@ -5,14 +5,23 @@ description: Roland Yonaba's Open Source Projects.
 ---
 <h1>My Open Source Projects</h1>
 <div class="site"></div>
-<div id="opensource-projects"></div>
- 
+<div id="data-repo"></div>
+
+<link rel="stylesheet" href="css/base.css">
+
+<div class="projects">
+	<div data-repo="Yonaba/30log" class="github-box-wrap"></div>
+	<div data-repo="Yonaba/Moses" class="github-box-wrap"></div>
+	<div data-repo="Yonaba/Jumper" class="github-box-wrap"></div>
+	<div data-repo="Yonaba/Allen" class="github-box-wrap"></div>
+</div>
+	
 <!-- Javascript to load and display repos from GitHub -->
- <script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.2.min.js" type="text/javascript"></script>
-  <script src="/javascripts/git.js" type="text/javascript"></script>
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
+  <script src="/javascripts/jquery.github.min.js.js" type="text/javascript"></script>
   <script type="text/javascript">
   $(function() {
-    $("#opensource-projects").loadRepositories("Yonaba");
+    $('[data-repo]').github();
   });
   </script>
 <!-- End GitHub repo code -->
