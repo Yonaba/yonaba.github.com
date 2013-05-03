@@ -1,5 +1,4 @@
 markdown: rdiscount
-pygments: true
 auto: true
 title: Roland Yonaba
 url: http://yonaba.github.com

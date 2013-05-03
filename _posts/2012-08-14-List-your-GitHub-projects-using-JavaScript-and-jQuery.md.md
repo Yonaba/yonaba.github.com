@@ -46,7 +46,7 @@ Before we go further, let me say that you may find over the internet some snippe
 
 Truth is, I tried most of them, and __they didn't work at all__. Well, they may have worked once, in the past, but since GitHub's API have changed, these snippets are now outdated.
 The [latest version of GitHub's API is now v3](http://developer.github.com/v3/), actually (I mean, at the time I am writing this).<br/>
-If you want to see a fully working version of this script, see my [Projects page](http://yonaba.github.com/projects.html). <br/>
+If you want to see a fully working version of this script, see this [page](http://yonaba.github.com/gitjstest.html). <br/>
 To have the same feature on your website, please go further reading.
 
 <br/>

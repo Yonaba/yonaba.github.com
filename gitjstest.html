@@ -1,0 +1,22 @@
+---
+layout: default
+title: Projects
+description: Roland Yonaba's Open Source Projects.
+---
+<h1>My Open Source Projects</h1>
+<div class="site"></div>
+<div id="opensource-projects"></div>
+ 
+<!-- Javascript to load and display repos from GitHub -->
+ <script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.2.min.js" type="text/javascript"></script>
+  <script src="/javascripts/git.js" type="text/javascript"></script>
+  <script type="text/javascript">
+  $(function() {
+    $("#opensource-projects").loadRepositories("Yonaba");
+  });
+  </script>
+<!-- End GitHub repo code -->
+
+
+
+
