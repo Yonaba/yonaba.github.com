@@ -14,3 +14,7 @@ All other directories and files, blogs posts and contents excluded, are [MIT](ht
 * GitHub repo listing basecode from [Andrew Dawey](http://aboutcode.net/2010/11/11/list-github-projects-using-javascript.html)
 * Sitemap generation code from [Jade](https://github.com/plusjade/jekyll-bootstrap)
 * Syntax Highlighting code by [Pygments.org](http://pygments.org)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Yonaba/yonaba.github.com/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
